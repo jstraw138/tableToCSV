@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tableToCSV test</title>
+	<script	src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="jquery.tableToCSV.js"></script>
+</head>
+<body>
+<table>
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Tom</td>
+			<td>Doe</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Jim</td>
+			<td>Doe</td>
+			<td>36</td>
+		</tr>
+		<tr>
+			<td>Kidon</td>
+			<td>Chu</td>
+			<td>33</td>
+		</tr>
+	</tbody>
+</table>
+<<script>
+	$("table").tableToCSV();
+</script>
+</body>
+</html>
